@@ -14,8 +14,6 @@ function Home() {
 
   const { users, isLoading } = useSelector((state) => state.users); //for getting the data we use useSelector
 
-
-
   if (isLoading) {
     return (
       <div className="min-h-screen w-full flex justify-center items-center">
